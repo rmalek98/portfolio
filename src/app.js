@@ -9,7 +9,7 @@
 
 
 var typer = {
-    words: ['Software Developer', 'Maker', 'Forward-Thinker'],
+    words: ['Software Developer', 'Maker', 'Designer'],
     wordIndex: 0,
     speed: 150,
     nextWordWait: 1000,

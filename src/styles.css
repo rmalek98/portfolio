@@ -19,16 +19,33 @@ html {
   text-align: center;
   }
   
+  @media (max-width: 576px) {
+    .name{
+      font-size: 25px;
+    }
+}
+
   .aboutMeText{
   font-family: 'Quicksand', sans-serif;
   width: 60vh;
   }
+    @media (max-width: 576px) {
+      .aboutMeText{
+        width: 20vh;
+      }
+  }
+
 
   .about{
   font-family: 'Quicksand', sans-serif;
   font-size: 25px;  
   line-height: 1.5;
   }
+  @media (max-width: 576px) {
+    .about{
+      font-size: 17px; 
+    }
+}
     
 
 .hero {
@@ -51,9 +68,9 @@ html {
 
 .socials {
   padding-bottom: 200px;
-  position: fixed;
+  /* position: fixed;
     top: 40vh;
-    right: 2vh;
+    right: 2vh; */
 }
 
 .social {
@@ -65,6 +82,13 @@ html {
 .myWord{
   font-size: 20px;
 }
+
+@media (max-width: 576px) {
+  .myWord{
+    font-size: 15px;
+  }
+}
+
 .word .cursor{
  display:inline-block;
  min-width:1px;
@@ -74,6 +98,12 @@ html {
  height:0.5em;
  vertical-align: middle;
  animation: blinkCursor 1s infinite;
+}
+
+@media (max-width: 576px) {
+  .word .cursor{
+    height:0.1em;
+  }
 }
 
 @keyframes blinkCursor{
@@ -142,6 +172,7 @@ h2 {
   cursor: pointer;
   z-index: 100;
   transition: opacity .25s ease;
+  margin: 20px;
 }
 .button_container:hover {
   opacity: .7;

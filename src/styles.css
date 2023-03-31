@@ -21,7 +21,7 @@ html {
   
   @media (max-width: 576px) {
     .name{
-      font-size: 25px;
+      font-size: 28px;
     }
 }
 
@@ -31,7 +31,7 @@ html {
   }
     @media (max-width: 576px) {
       .aboutMeText{
-        width: 20vh;
+        width: 30vh;
       }
   }
 
@@ -43,7 +43,7 @@ html {
   }
   @media (max-width: 576px) {
     .about{
-      font-size: 17px; 
+      font-size: 15px; 
     }
 }
     
@@ -71,6 +71,13 @@ html {
   /* position: fixed;
     top: 40vh;
     right: 2vh; */
+}
+
+@media (max-width: 576px) {
+  .socials{
+width: auto;
+height: auto;
+  }
 }
 
 .social {

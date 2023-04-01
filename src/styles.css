@@ -1,5 +1,5 @@
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Varela Round', serif;
   margin: 0;
 }
 
@@ -8,41 +8,59 @@ html {
   overflow-x: hidden!important;
   }
   
-  body {
-  font-family: 'Quicksand', sans-serif;
-  }
 
   .name {
-  font-family: 'Quicksand', sans-serif;
+ 
   font-size: 40px;
   margin-bottom: 0px;
   text-align: center;
   }
+
+  .about{
+  
+  font-size: 40px;
+  margin-bottom: 0px;
+
+  }
   
   @media (max-width: 576px) {
     .name{
-      font-size: 28px;
+      font-size: 28dpx;
     }
 }
 
-  .aboutMeText{
-  font-family: 'Quicksand', sans-serif;
+  .aboutMeDiv{
   width: 60vh;
   }
-    @media (max-width: 576px) {
-      .aboutMeText{
-        width: 30vh;
-      }
+    
+
+  @media (max-width: 900px) {
+    .aboutMeDiv{
+      width: 50vh;
+      /* background-color: red; */
+    }
+
   }
 
+  @media (max-width: 700px) {
+    .aboutMeDiv{
+      width: 35vh;
+    }
+}
 
-  .about{
-  font-family: 'Quicksand', sans-serif;
+  @media (max-width: 576px) {
+    .aboutMeDiv{
+      width: 30vh;
+    }
+}
+
+
+  .aboutText{
   font-size: 25px;  
   line-height: 1.5;
   }
   @media (max-width: 576px) {
-    .about{
+    .aboutText{
       font-size: 15px; 
     }
 }
@@ -68,6 +86,10 @@ html {
 
 .socials {
   padding-bottom: 200px;
+  position: absolute;
+  right: 0;
+  margin: 30px;
+  
   /* position: fixed;
     top: 40vh;
     right: 2vh; */
@@ -80,9 +102,7 @@ height: auto;
   }
 }
 
-.social {
-  margin: 20px;
-}
+
 
 
 /* Home text animation */
@@ -129,7 +149,7 @@ height: auto;
   top: 40%;
   left: 0;
   margin: 0 auto;
-  font-family: 'Varela Round', sans-serif;
+  
 }
 .container p {
   font-size: 20px;
@@ -159,16 +179,7 @@ height: auto;
   width: 100%;
 }
 
-.name{
-  position: relative;
-  text-align: center;
-  font-family: 'Varela Round', serif;
-}
 
-h2 {
-  position: relative;
-  font-family: 'Varela Round', serif;
-}
 
 .button_container {
   position: fixed;
@@ -252,7 +263,6 @@ h2 {
   top: 50%;
   transform: translateY(-50%);
   font-size: 50px;
-  font-family: 'Varela Round', serif;
   font-weight: 400;
   text-align: center;
 }
